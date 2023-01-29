@@ -6,4 +6,5 @@ def filter_strings(strings):
     return new_strings
 
 original_strings = input("Введите массив строк, разделенных запятой: ").split(',')
+filtered_strings = filter_strings(original_strings)
 
